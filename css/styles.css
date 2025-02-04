@@ -1,5 +1,24 @@
-nav-items{
+p {
+    color: royalblue;
+}
+.nav-items{
     display: flex;
-    flex-direction: row;
-    gap: 10px;
+    justify-content:right;
+    list-style-type: none;
+    padding: 0 10%;
+    background-color:#9F5F91;
+    border-bottom: 1px solid #010407;
+    
+
+}
+.nav-items li{
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.nav-items li:hover{
+    background-color: #0e78e2;
 }
