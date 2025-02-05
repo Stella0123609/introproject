@@ -12,13 +12,80 @@ p {
 
 }
 .nav-items li{
-    padding: 20px;
+    padding: 10px;
     color: white;
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
+   
 }
+
 .nav-items li:hover{
-    background-color: #0e78e2;
+    background-color: #010407;
+    transition: 0.5s;
+    }
+.nav-items li a{
+    text-decoration: none;
+    color: white;
+   
 }
+.hero h1{
+    font-size: 40px;
+    color: #0f0322;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+.hero p{
+    font-size: 40px;
+    color: #534666;
+    text-align: center;
+    margin-top: 10px;
+}
+.services h2{
+    font-size: 40px;
+    color: #0f0322;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+.services-items ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+} 
+.services-container img{
+    width: 300px;
+   
+}
+.service1 img{
+    width: 300px;
+    border-radius: 20px;
+}
+ .service2 img{
+    width: 300px;
+    border-radius: 20px;
+}
+.service3 img{
+    width: 300px;
+    border-radius: 20px;
+}
+.services-container{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.services-cintainer p{
+    font-size: 20px;
+    color: #534666;
+    text-align: center;
+    margin-top: 10px;
+}
+
