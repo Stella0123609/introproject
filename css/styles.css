@@ -22,7 +22,7 @@ p {
 }
 
 .nav-items li:hover{
-    background-color: #010407;
+    background-color: #032446;
     transition: 0.5s;
     }
 .nav-items li a{
@@ -36,21 +36,21 @@ p {
     margin: 0;
     padding: 0;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 6px;
 }
 .hero p{
-    font-size: 40px;
+    font-size: 30px;
     color: #534666;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 4px;
 }
 .services h2{
-    font-size: 40px;
+    font-size: 20px;
     color: #0f0322;
     margin: 0;
     padding: 0;
     text-align: center;
-    margin-top: 10px;
+    margin-top: 3px;
 }
 .services-items ul{
     display: flex;
@@ -99,5 +99,31 @@ p {
     }
 }
 
-
-
+#contacts_links{
+    display: flex;
+    justify-content: flex end;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border-top: 1px solid #010407;
+}
+#contacts_links img{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+.contacts-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.contact h3{
+    font-size: 20px;
+    color: #0f0322;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+}
