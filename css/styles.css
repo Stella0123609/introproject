@@ -45,7 +45,7 @@ p {
     margin-top: 4px;
 }
 .services h2{
-    font-size: 20px;
+    font-size: 30px;
     color: #0f0322;
     margin: 0;
     padding: 0;
@@ -126,4 +126,57 @@ p {
     padding: 0;
     text-align: center;
     margin-top: 10px;
+}
+
+    
+
+.pricing-monthly h3{
+    font-size: 20px;
+    color: #0f0322;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    margin-top: 10px;
+}
+
+.pricing-monthly button{
+   cursor: pointer;
+   margin: 10px; 
+   margin-top: 6px;
+    
+}
+
+.pricing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.pricing-yearly button{
+    cursor: pointer;
+    margin: 10px;
+    margin-top: 6px;
+}
+.pricing h2{
+    font-size: 30px;
+    color: #0f0322;
+    margin: 0;
+    padding: 0;
+     margin-top: 3px;
+}
+.pricing-monthly{
+    margin-left: 50px;
+}
+.responsive-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 20px;
+}
+.responsive-container button{
+    cursor: pointer;
+    margin: 10px;
+    margin-top: 6px;
 }
