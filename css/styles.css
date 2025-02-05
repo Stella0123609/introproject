@@ -66,14 +66,17 @@ p {
 .service1 img{
     width: 300px;
     border-radius: 20px;
+    height: 300px;
 }
  .service2 img{
     width: 300px;
     border-radius: 20px;
+    height: 300px;
 }
 .service3 img{
     width: 300px;
     border-radius: 20px;
+    height: 300px;
 }
 .services-container{
     display: flex;
@@ -88,4 +91,13 @@ p {
     text-align: center;
     margin-top: 10px;
 }
+.media query{
+    @media screen and (max-width: 768px){
+        .services-container{
+            flex-direction: row;
+        }
+    }
+}
+
+
 
