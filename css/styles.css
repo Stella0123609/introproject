@@ -1,12 +1,31 @@
+@keyframes moveGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+body{
+    background: linear-gradient(127deg, rgb(12, 128, 30), rgb(13, 85, 6), green, rgb(164, 246, 160));
+    background-size: 200% 100%;
+    animation: moveGradient 25s ease infinite;
+    height: 100vh;
+}
+
 p {
-    color: royalblue;
+    color: rgb(238, 240, 247);
 }
 .nav-items{
     display: flex;
     justify-content:right;
     list-style-type: none;
     padding: 0 10%;
-    background-color:#9F5F91;
+    background-color:#18932f;
     border-bottom: 1px solid #010407;
     
 
@@ -22,7 +41,7 @@ p {
 }
 
 .nav-items li:hover{
-    background-color: #032446;
+    background-color: #17431f;
     transition: 0.5s;
     }
 .nav-items li a{
@@ -40,13 +59,13 @@ p {
 }
 .hero p{
     font-size: 30px;
-    color: #534666;
+    color: #f1edf6;
     text-align: center;
     margin-top: 4px;
 }
 .services h2{
     font-size: 30px;
-    color: #0f0322;
+    color:black;
     margin: 0;
     padding: 0;
     text-align: center;
@@ -86,10 +105,11 @@ p {
     margin-top: 20px;
     justify-content: center;
     gap: 10px;
+    flex-wrap: wrap;
 }
 .services-container p{
     font-size: 20px;
-    color: #534666;
+    color: #edebf0;
     text-align: center;
     margin-top: 10px;
     width: 70%;
@@ -181,8 +201,10 @@ p {
 }
 .responsive-container button{
     cursor: pointer;
-    margin: 10px;
+    margin: 30px;
     margin-top: 6px;
+    background-color: #117106;
+    transition: 0.5s;
 }
 
 .hidden{
@@ -195,6 +217,7 @@ p {
 }
 
 .pricing-container{
-    border: 2px solid chocolate;
+    border: 2px solid rgb(2, 33, 15);
     border-radius: 5px;
+   
 }
