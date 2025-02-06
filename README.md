@@ -6,7 +6,11 @@
  ## Setup Instructions  
  1. Open the home page on your browser  
  2. Click on the subscription tag bar  
- 3. Click on the package that suits you then buy   
+ 3. Click on the package that suits you then buy 
+ ## BDD  
+ When you click in monthly,it displays the different packages to buy monthly only  
+ When you click on yearly,it displays the different packages to buy yearly only  
+ When you click on both,it displays both monthly and yearly so that you differentiate both of them at the same time   
 ## Technologies Used  
 HTML  
 CSS  
