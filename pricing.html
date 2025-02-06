@@ -8,13 +8,32 @@
     <script src="scripts/pricing.js" defer></script>
 </head>
 <body>
+    <nav>
+        <ul class="nav-items">
+            <li>
+                <a href="index.html">Home</a>
+            </li>
+            <li>
+                <a href="pricing.html">Pricing</a>
+            </li>
+            <li>
+                <a href="contacts.html">Contacts</a>
+            </li>
+        </ul>
+    </nav>
     <section class="responsive-container">
-        <button class="monthlyslide">Montly</button>
-        <button class="yearlyslide">Yearly</button>
-
+        <button class="monthlySlide bgSelected" onclick="func2()">
+            Monthly
+          </button>
+          <button class="yearlySlide" onclick="func1()">
+            Yearly
+          </button> 
+          <button class="yearlySlide" onclick="func3()">
+            Both
+          </button> 
     </section>
 <section class="pricing">
- <section class="pricing-monthly">
+ <section class="pricing-monthly" id="pricing-monthly">
     <h2>Pricing</h2>
     <div class="pricing-container">
         <div class="pricing-card">
@@ -36,10 +55,9 @@
             <button>Buy</button>
         </div>
     </div>
-
  </section>
- <section class="pricing-yearly">
-    <h2>pricing</h2>
+ <section class="pricing-yearly" id="pricing-yearly">
+    <h2>Pricing</h2>
     <div class="pricing-container">
         <div class="pricing-card">
             <h3>Basic</h3>

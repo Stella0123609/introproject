@@ -59,37 +59,40 @@ p {
     padding: 0;
     margin: 0;
 } 
-.services-container img{
-    width: 300px;
-   
+
+.service1, .service2, .service3{
+    width: 400px;
 }
 .service1 img{
-    width: 300px;
+    width: 280px;
+    border: 1px solid sienna;
     border-radius: 20px;
     height: 300px;
 }
  .service2 img{
-    width: 300px;
+    width: 280px;
+    border: 1px solid sienna;
     border-radius: 20px;
     height: 300px;
 }
 .service3 img{
-    width: 300px;
+    width: 280px;
+    border: 1px solid sienna;
     border-radius: 20px;
     height: 300px;
 }
 .services-container{
     display: flex;
     margin-top: 20px;
-    flex-direction: row;
-    justify-content: space-around;
-
+    justify-content: center;
+    gap: 10px;
 }
-.services-cintainer p{
+.services-container p{
     font-size: 20px;
     color: #534666;
     text-align: center;
     margin-top: 10px;
+    width: 70%;
 }
 .media query{
     @media screen and (max-width: 768px){
@@ -152,6 +155,7 @@ p {
     align-items: center;
     flex-direction: row;
     margin-top: 20px;
+    gap: 1rem;
 }
 .pricing-yearly button{
     cursor: pointer;
@@ -163,10 +167,10 @@ p {
     color: #0f0322;
     margin: 0;
     padding: 0;
-     margin-top: 3px;
+    margin-top: 3px;
 }
-.pricing-monthly{
-    margin-left: 50px;
+.pricing p{
+    font-size: 22px;
 }
 .responsive-container{
     display: flex;
@@ -179,4 +183,18 @@ p {
     cursor: pointer;
     margin: 10px;
     margin-top: 6px;
+}
+
+.hidden{
+    display: none;
+}
+
+.services-container h3{
+    text-align: center;
+    width: 72%;
+}
+
+.pricing-container{
+    border: 2px solid chocolate;
+    border-radius: 5px;
 }
