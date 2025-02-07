@@ -165,7 +165,7 @@ p {
     color: #0f0322;
     margin: 0;
     padding: 0;
-    text-align: left;
+    text-align: center;
     margin-top: 10px;
 }
 
@@ -247,4 +247,33 @@ p {
     background-color: #ea4c13;
     font-size: large;
     margin-left: 45%;
+}
+.container {
+    max-width: 420px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #010000;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    background-color: #2bba4a;
+}
+input, select, button {
+    width: 80%;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 16px;
+}
+button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #218838;
+}
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
 }

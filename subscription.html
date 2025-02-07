@@ -20,7 +20,19 @@
                 <a href="contacts.html">Contacts</a>
             </li>
         </ul>
-    </nav>
+    </nav><div class="container">
+        <h2>Calculate Your BMI</h2>
+        <label for="unit">Select Unit:</label>
+        <select id="unit">
+            <option value="metric">Metric (kg, cm)</option>
+            <option value="imperial">Imperial (lbs, in)</option>
+        </select>
+        <input type="number" id="weight" placeholder="Enter Weight" required>
+        <input type="number" id="height" placeholder="Enter Height" required>
+        <button onclick="calculateBMI()">Calculate BMI</button>
+        <h3 id="result"></h3>
+    </div>
+
     <section class="responsive-container">
         <button class="monthlySlide bgSelected" onclick="func2()">
             Monthly
