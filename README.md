@@ -14,7 +14,9 @@
 ## Technologies Used  
 HTML  
 CSS  
-JavaScript  
+JavaScript   
+## Design used  
+https://www.figma.com/design/SN8mI9wJKX09anSEGuf40T/Untitled?node-id=0-1&t=8FKuFt3BeQJ9RkIG-1
 ## Contact Information
 Email-smaries6016@gmail.com  
 ## License  
