@@ -242,12 +242,12 @@ p {
     align-items: center;
     margin-top: 20px;
     border: #010407 solid 1px;
-    border-radius: 20px;
+    border-radius:5px;
     padding: 4px;
     background-color: #ea4c13;
     font-size: large;
-    margin-left: 10%;
-    
+    margin-left:38%;
+    width: 300px;
 }
 .container {
     max-width: 420px;
